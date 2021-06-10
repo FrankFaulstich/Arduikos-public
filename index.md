@@ -5,8 +5,7 @@ Jetzt geht es mit HTML weiter:
 <p>Das ist ein HTML-Absatz</p>
 
 Jetzt wieder Markdaown.
-<html>
-<head>
+
 	<!-- Source: http://wiki.openstreetmap.org/wiki/Openlayers_Track_example -->
 	<title>Cerchov-Runde</title>
 	<!--  OpenLayers javascript library
@@ -84,5 +83,4 @@ Jetzt wieder Markdaown.
 <body onload="init();">
 	<!-- define a DIV into which the map will appear. Make it take up the whole window -->
 	<div style="width:100%; height:100%" id="map"></div>
-</body>
-</html>
+
