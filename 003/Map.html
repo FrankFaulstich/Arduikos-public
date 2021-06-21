@@ -35,8 +35,21 @@
           .transform(
             new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
             new OpenLayers.Projection("EPSG:900913") // to Spherical Mercator Projection
-          ), zoom // Zoom level
+          ), zoom // Zoom level 
         );
+		
+		var GPXVariable_1 = new OpenLayers.Layer.Vector("Cerchov-Runde", {
+				strategies: [new OpenLayers.Strategy.Fixed()],
+				protocol: new OpenLayers.Protocol.HTTP({
+					url: "https://frankfaulstich.github.io/Arduikos-public/003/Hochfall.gpx",
+					format: new OpenLayers.Format.GPX()
+				}),
+				style: {strokeColor: "red", strokeWidth: 5, strokeOpacity: 0.5},
+				projection: new OpenLayers.Projection("EPSG:4326")
+			});
+		
+		map.addLayer(GPXVariable_1);
+		
       }
     </script>
   </head>
