@@ -11,7 +11,24 @@
     <script src="https://openlayers.org/api/OpenLayers.js"></script>
     <script>
       function init() {
-        map = new OpenLayers.Map("basicMap");
+		var lat=49.3450000
+		var lon=12.7600000
+		var zoom=12
+		
+        map = new OpenLayers.Map("basicMap", {
+				controls:[
+					new OpenLayers.Control.Navigation(),
+					new OpenLayers.Control.PanZoomBar(),
+					new OpenLayers.Control.LayerSwitcher(),
+					new OpenLayers.Control.Attribution()],
+				maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
+				maxResolution: 156543.0399,
+				numZoomLevels: 19,
+				units: 'm',
+				projection: new OpenLayers.Projection("EPSG:900913"),
+				displayProjection: new OpenLayers.Projection("EPSG:4326")
+			});
+			
         var mapnik = new OpenLayers.Layer.OSM();
         map.addLayer(mapnik);
         map.setCenter(new OpenLayers.LonLat(13.41,52.52) // Center of the map
