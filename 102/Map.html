@@ -47,7 +47,7 @@
 		]).addTo(mymap);
 		*/
 		
-		var gpx = 'https://frankfaulstich.github.io/Arduikos-public/101/Perlbachtal.gpx'; // URL to your GPX file or the GPX itself
+		var gpx = 'https://frankfaulstich.github.io/Arduikos-public/102/Silbersee.gpx'; // URL to your GPX file or the GPX itself
 		
 		new L.GPX(gpx, {async: true}).on('loaded', function(e) {
 			mymap.fitBounds(e.target.getBounds());
