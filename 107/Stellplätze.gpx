@@ -7,7 +7,7 @@
  <wpt lat="48.72045994" lon="13.59364986">
   <ele>515</ele>
   <time>2021-12-09T11:57:34.852Z</time>
-  <name>Test 1</name>
+  <name>&lt;a href=\&quot;https://trail-kompass.de/furth-im-wald/\&quot;&gt;Test 1&lt;/a&gt;</name>
   <desc>Saußmühle (Parken1) &lt;a href=\&quot;https://trail-kompass.de/furth-im-wald/\&quot;&gt;Furth im Wald&lt;/a&gt;</desc>
   <link href="https://heise.de">
    <text>Linktext</text>
