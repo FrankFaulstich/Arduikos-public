@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0" xmlns:ql="http://www.qlandkarte.org/xmlschemas/v1.1" creator="QMapShack 1.15.2 http://www.qlandkarte.org/" xmlns:tp1="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.qlandkarte.org/xmlschemas/v1.1 http://www.qlandkarte.org/xmlschemas/v1.1/ql-extensions.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" xmlns:rmc="urn:net:trekbuddy:1.0:nmea:rmc" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+ <metadata>
+  <name>Stellplätze</name>
+  <time>2021-12-07T11:23:32.475Z</time>
+ </metadata>
+ <wpt lat="48.72045994" lon="13.59364986">
+  <ele>515</ele>
+  <time>2021-12-09T11:57:34.852Z</time>
+  <name>Test 1</name>
+  <desc>Saußmühle (Parken1) &lt;a href=\&quot;https://trail-kompass.de/furth-im-wald/\&quot;&gt;Furth im Wald&lt;/a&gt;</desc>
+  <link href="https://heise.de">
+   <text>Linktext</text>
+  </link>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>059d6f7c73b72afcccd960173079cf5e</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2021-12-09T12:06:08.065Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/Link.png</ql:icon>
+     <ql:time>2021-12-09T12:06:43.412Z</ql:time>
+     <ql:comment>Geänderte Verknüpfungen</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension/>
+  </extensions>
+ </wpt>
+ <wpt lat="48.5741691" lon="13.4259643">
+  <ele>515</ele>
+  <time>2021-12-09T11:57:34.852Z</time>
+  <name>Stellplatz Winterhafen in Passau</name>
+  <desc>&lt;a href=\&quot;https://arduikos.blogspot.com/2021/09/stellplatz-winterhafen-in-passau.html\&quot;&gt;Stellplatz Winterhafen in Passau&lt;/a&gt;</desc>
+  <sym>Flag, Blue</sym>
+ </wpt> 
+ <extensions>
+  <ql:key>6dc482ae4763bde7b52277c9ccf20ed5</ql:key>
+  <ql:sortingRoadbook>0</ql:sortingRoadbook>
+  <ql:sortingFolder>0</ql:sortingFolder>
+  <ql:correlation>1</ql:correlation>
+  <ql:invalidDataOk>0</ql:invalidDataOk>
+ </extensions>
+</gpx>
