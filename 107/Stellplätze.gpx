@@ -36,7 +36,7 @@
   <ele>515</ele>
   <time>2021-12-09T11:57:34.852Z</time>
   <name>Stellplatz Winterhafen in Passau</name>
-  <desc>&lt;a href=\&quot;Test.html&quot;&gt;Furth im Wald&lt;/a&gt;</desc>
+  <desc>&lt;a href=\Test.html&gt;Test&lt;/a&gt;</desc>
   <sym>Flag, Blue</sym>
  </wpt> 
  <extensions>
