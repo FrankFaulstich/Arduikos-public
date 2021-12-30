@@ -24,7 +24,7 @@
 			maxZoom: 18,
 			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 		}).addTo(mymap);
-		
+
 		/*
 		L.marker([48.923, -0.09]).addTo(mymap);
 		L.circle([51.508, -0.11], {
@@ -45,6 +45,7 @@
 		new L.GPX(gpx, {async: true}).on('loaded', function(e) {
 			mymap.fitBounds(e.target.getBounds());
 		}).addTo(mymap);
+		
 	</script>
 </body>
 </html>
