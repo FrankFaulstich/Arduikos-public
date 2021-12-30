@@ -4,46 +4,33 @@
   <name>Stellplätze</name>
   <time>2021-12-07T11:23:32.475Z</time>
  </metadata>
- <wpt lat="48.72045994" lon="13.59364986">
-  <ele>515</ele>
-  <time>2021-12-09T11:57:34.852Z</time>
-  <name>&lt;a href=\&quot;https://trail-kompass.de/furth-im-wald/\&quot;&gt;Test 1&lt;/a&gt;</name>
-  <desc>Saußmühle (Parken1) &lt;a href=\&quot;https://trail-kompass.de/furth-im-wald/\&quot;&gt;Furth im Wald&lt;/a&gt;</desc>
-  <link href="https://heise.de">
-   <text>Linktext</text>
-  </link>
-  <sym>Flag, Blue</sym>
-  <extensions>
-   <ql:key>059d6f7c73b72afcccd960173079cf5e</ql:key>
-   <ql:flags>3</ql:flags>
-   <ql:bubble yoff="-150" xoff="-320" width="300"/>
-   <ql:history>
-    <ql:event>
-     <ql:icon>://icons/48x48/Start.png</ql:icon>
-     <ql:time>2021-12-09T12:06:08.065Z</ql:time>
-     <ql:comment>Erstversion.</ql:comment>
-    </ql:event>
-    <ql:event>
-     <ql:icon>://icons/48x48/Link.png</ql:icon>
-     <ql:time>2021-12-09T12:06:43.412Z</ql:time>
-     <ql:comment>Geänderte Verknüpfungen</ql:comment>
-    </ql:event>
-   </ql:history>
-   <wptx1:WaypointExtension/>
-  </extensions>
- </wpt>
  <wpt lat="48.5741691" lon="13.4259643">
-  <ele>515</ele>
+  <ele>001</ele>
   <time>2021-12-09T11:57:34.852Z</time>
   <name>Stellplatz Winterhafen in Passau</name>
-  <desc>&lt;a href=\Arduikos-public\107\001.html&gt;Test&lt;/a&gt;</desc>
+  <desc>&lt;a href=\Arduikos-public\107\001.html&gt;Beschreibung&lt;/a&gt;</desc>
   <sym>Flag, Blue</sym>
- </wpt> 
- <extensions>
-  <ql:key>6dc482ae4763bde7b52277c9ccf20ed5</ql:key>
-  <ql:sortingRoadbook>0</ql:sortingRoadbook>
-  <ql:sortingFolder>0</ql:sortingFolder>
-  <ql:correlation>1</ql:correlation>
-  <ql:invalidDataOk>0</ql:invalidDataOk>
- </extensions>
+ </wpt>
+  <wpt lat="50.9611505" lon="10.392876">
+  <ele>001</ele>
+  <time>2021-12-09T11:57:34.852Z</time>
+  <name>Stellplatz Kleiner Hörselberg</name>
+  <desc>&lt;a href=\Arduikos-public\107\002.html&gt;Beschreibung&lt;/a&gt;</desc>
+  <sym>Flag, Blue</sym>
+ </wpt>
+  <wpt lat="50.59" lon="10.2692013">
+  <ele>001</ele>
+  <time>2021-12-09T11:57:34.852Z</time>
+  <name>Stellplatz Hohe Geba</name>
+  <desc>&lt;a href=\Arduikos-public\107\003.html&gt;Beschreibung&lt;/a&gt;</desc>
+  <sym>Flag, Blue</sym>
+ </wpt>
+  <wpt lat="50.9788723" lon="10.3204652">
+  <ele>001</ele>
+  <time>2021-12-09T11:57:34.852Z</time>
+  <name>Stellplatz Eisenach</name>
+  <desc>&lt;a href=\Arduikos-public\107\004.html&gt;Beschreibung&lt;/a&gt;</desc>
+  <sym>Flag, Blue</sym>
+ </wpt>
+
 </gpx>
