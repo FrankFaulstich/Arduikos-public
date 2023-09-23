@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Leaflet-Map</title>
+	<style type="text/css">
+      html, body, #mapid {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+      }
+	 </style>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.5.1/gpx.min.js"></script>
+</head>
+<body>
+	<div id="mapid"></div>
+	<script>
+	
+		var mymap = L.map('mapid').setView([49.271145, 12.814891], 13);
+	
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+		}).addTo(mymap);
+	
+		//L.marker([51.5, -0.09]).addTo(mymap);
+		
+		/*
+		L.circle([51.508, -0.11], {
+			color: 'red',
+			fillColor: '#f03',
+			fillOpacity: 0.5,
+			radius: 500
+		}).addTo(mymap);
+		*/
+		
+		/*
+		L.polygon([
+			[51.509, -0.08],
+			[51.503, -0.06],
+			[51.51, -0.047]
+		]).addTo(mymap);
+		*/
+		
+		var gpx = 'https://frankfaulstich.github.io/Arduikos-public/109/Alpiner-Steig.gpx'; // URL to your GPX file or the GPX itself
+		
+		new L.GPX(gpx, {async: true}).on('loaded', function(e) {
+			mymap.fitBounds(e.target.getBounds());
+		}).addTo(mymap);
+	
+	</script>
+</body>
+</html>
